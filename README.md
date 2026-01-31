@@ -1,8 +1,8 @@
 <h1>Machine Language</h1>
 
-<b>Machine Language</b> is the byte-level (or bit-level) representation of data and executable instructions, targeting either real hardware processors or virtual machines.
+<b>Machine Language</b> is the byte-level (or bit-level) representation of data and executable instructions, targeting real hardware processors, virtual machines and data structures and formats.
 
-The next example related to the x86 processor family represents the simplest, complete and most compact possible code of a "Hello, World!" application written in machine language. See <https://figshare.com/articles/preprint/_b_Asm_Augmented_Assembly_Language_b_/31204036>
+The next example related to the x86 processor family represents the simplest, complete and most compact possible code of a "Hello, World!" application written in machine language. <https://www.preprints.org/manuscript/202601.2364>
 
 ![Hello, World](Hello.png)
 
