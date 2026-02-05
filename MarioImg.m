@@ -13,7 +13,7 @@
 0118: 2C 30	 ; sub al, '0'
 011A: 74 06	 ; je  print_char (0x06 = 0x0122 - 0x011C)
 011C: 3C 09	 ; cmp al, 9
-011E: 76 02	 ; jbe print_char (0x02 = 0x0122 - 0z0120)
+011E: 76 02	 ; jbe print_char (0x02 = 0x0122 - 0x0120)
 0120: 2C 07	 ; sub al, 'A' - '0' - 10
 0122:		 ; print_char:
 0122: B4 09	 ; mov ah, 09h
