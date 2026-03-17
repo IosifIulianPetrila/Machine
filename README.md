@@ -2,7 +2,7 @@
 
 <b>Machine Language</b> is the byte-level (or bit-level) representation of data and executable instructions, targeting real hardware processors, virtual machines or data structures and formats. Machine language allows the direct description of the binary organization of information in computing systems, as instructions or data structures, in the form of binary sequences that can be directly loaded into memory for efficient exploration and execution by the system.
 
-The next example related to the x86 processor family represents the simplest, complete and most compact possible code of a "Hello, World!" application written in machine language. <https://www.preprints.org/manuscript/202601.2364>
+The next example related to the x86 processor family represents the simplest, complete and most compact possible code of a "Hello, World!" application written in machine language.
 
 ![Hello, World](Hello.png)
 [Compile with Augmented Machine Language IDE](https://academicregister.com/?r=Augmented/Machine/Language/IDE&Editor=0100%3A+B4+09+++++++++++++++%3B+mov+ah%2C+9%0D%0A0102%3A+BA+0108+++++++++++++%3B+mov+dx%2C+M+%3B+M+%3D+0x0108%0D%0A0105%3A+CD+21+++++++++++++++%3B+int+0x21%0D%0A0107%3A+C3++++++++++++++++++%3B+ret%0D%0A0108%3A+%22Hello%2C+World%21%22+24++%3B+M+db+%22Hello%2C+World%21%22%2C+0x24)
